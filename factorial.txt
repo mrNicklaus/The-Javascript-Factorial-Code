@@ -1,0 +1,59 @@
+Directions:
+Write a for (note: not a function) loop that prints out the factorial of the number 12:
+
+A factorial is calculated by multiplying a number by all the numbers below it. For instance, 3! or "3 factorial" is 3 * 2 * 1 = 6
+
+3! = 3 * 2 * 1 = 63!=3∗2∗1=6
+
+4! = 4 * 3 * 2 * 1 = 244!=4∗3∗2∗1=24
+
+5! = 5 * 4 * 3 * 2 * 1 = 1205!=5∗4∗3∗2∗1=120
+
+Save your final answer in a variable called solution and print it to the console.
+
+
+
+
+Explanation for answer:
+
+1. The var x=1 is your starting point.
+
+2. The x<=12 is your end point, which tells this for loop to end at 12.
+
+3. The x++ is telling the for loop to increment by 1 after each loop. You could also write this as x = x + 1 to help you understand better.
+
+Also, remember that you set the solution equal to 1 before running the for loop.
+
+Here's the first run through:
+
+1. solution = 1 * 1 = 1. The x is equal to one because that's the starting point for this for loop.
+
+The answer will be inserted into the solution = solution * x for the next run so it will be solution = 1 * x next.
+
+Next is:
+
+2. solution = 1 * 2 = 2. The x went up by one because you told the loop to increment by one after each time the loop runs so it is now 2. Now the answer is 2 so you insert 2 into solution = 2 * x.
+
+And keeps going until it reaches 12 because that's the parameter you gave the loop.
+
+3. solution = 2 * 3 = 6
+
+4. solution = 6 * 4 = 24
+
+5. solution = 24 * 5 = 120
+
+6. solution = 120 * 6 = 720
+
+7. solution = 720 * 7 = 5,040
+
+8. solution = 5040 * 8 = 40,320
+
+9. solution = 40320 * 9 = 362,880
+
+10. solution = 362880 * 10 = 3,628,800
+
+11. solution = 3,628,800 * 11 = 39,916,800
+
+12. solution = 39,916,800 * 12 = 479,001,600
+
+Since x is now equal to 12, the loop will stop and return a value of 479,001,600.
